@@ -1,4 +1,4 @@
-export const BASE_URL = "https://expense-tracker-api-jade.vercel.app";
+export const BASE_URL = "https://expense-tracker-poeg.onrender.com/";
 
 //utils/apiPaths.js
 export const API_PATHS = {
