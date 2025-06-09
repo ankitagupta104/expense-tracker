@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { LuPlus } from "react-icons/lu";
+import { LuMinus } from "react-icons/lu";
 import { prepareExpenseLineChartData } from '../../utils/helper';
 import CustomLineChart from '../charts/CustomLineChart';
 
@@ -23,7 +23,7 @@ const ExpenseOverview = ({transactions, onExpenseIncome}) => {
         </div>
 
         <button className="add-btn" onClick={onExpenseIncome}>
-          <LuPlus className="text-lg" />
+          <LuMinus className="text-lg" />
           Add Expense
         </button>
       </div>
